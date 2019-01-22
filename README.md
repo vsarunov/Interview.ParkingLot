@@ -28,4 +28,15 @@ As well you can Run Unit test to test the application. Or just run a dummy progr
 
 What would I do in real life application:
 
-Multithreading - cars my come at the same time. Proper rule validation engine as mentioned above. Remove space if has been taken or add if has been freed. Specify the exact space on the floor.
+Multithreading - cars my come at the same time. 
+Proper rule validation engine as mentioned above. 
+Remove space if has been taken or add if has been freed. Specify the exact space on the floor.
+Add repository to resolve car details via repository patern.
+Create object to identify BoomBarrier event, e.g
+boomBarier :
+{
+boomBarrierFloor: int;
+carPlateNumber: string;
+}.
+
+Separate project for services and DAL.
